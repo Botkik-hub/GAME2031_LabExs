@@ -5,7 +5,7 @@ using UnityEngine;
 public class CommandManager : MonoBehaviour
 {
     public static CommandManager Instance { get; private set; }
-
+    
     private List<ICommand> _commands;
 
     private void Awake()
